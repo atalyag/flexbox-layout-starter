@@ -186,7 +186,30 @@ main:hover {
   box-shadow: -5px 5px 5px 0px #f1e07a;
 }
 
-/***Footer Icons***/
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    background-color: #ffc2d5;
+    color: #000;
+}
+
+a:visited{
+    background-color: #adefff;
+    color: #969696;
+    text-decoration: none;
+}
 
 
 /* ==========================================================================
